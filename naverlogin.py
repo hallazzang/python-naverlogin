@@ -1,4 +1,4 @@
-# python-naverlogin.py
+# naverlogin.py
 # https://github.com/HallaZzang/python-naverlogin.git
 
 import requests
