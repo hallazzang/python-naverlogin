@@ -1,11 +1,10 @@
-# python-naverlogin.py
+# naverlogin.py
 # https://github.com/HallaZzang/python-naverlogin.git
 
 import requests
 import re
 import rsa
 from binascii import hexlify
-from aa-bb import zz
 
 class NaverSession(requests.Session):
     def login(self, user_id, user_pw, do_finalize=True):
