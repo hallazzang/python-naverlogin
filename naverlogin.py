@@ -17,8 +17,11 @@ class NaverSession(requests.Session):
 
         login_url = 'https://nid.naver.com/nidlogin.login'
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) '
+                          'AppleWebKit/537.36 (KHTML, like Gecko) '
+                          'Chrome/45.0.2454.85 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,'
+                          'application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3',
             'Accept-Encoding': 'gzip, deflate',
             'Referer': 'http://www.naver.com/',
@@ -56,8 +59,7 @@ class NaverSession(requests.Session):
             return False
 
     def logout(self):
-        logout_url = 'http://nid.naver.com/nidlogin.logout'
-        self.get(logout_url)
+        self.get('http://nid.naver.com/nidlogin.logout')
 
     def _get_keys(self):
         fetch_url = 'http://static.nid.naver.com/loginv3/js/keys_js.nhn'
