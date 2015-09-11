@@ -17,7 +17,7 @@ if nsession.login('blahblah', 'foofoo'):
     
     # do your job
     
-    nession.logout()
+    nsession.logout()
 else:
     print 'login failed! check id and password.')
 ```
