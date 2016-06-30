@@ -4,7 +4,7 @@ Tiny module that can help who wants to use naver login in his/her application
 Features
 --------
 - It doesn't need any JavaScript emulator to run `rsa.js`.
-- Easy to use: `NaverSession` class just overrides `requests.Session`. The only difference between those two class is `NaverSession` has additional `login` and `logout` method(...and `_get_keys` method, too).
+- Easy to use: `NaverSession` class just overrides `requests.Session`. The only difference between those two classes is `NaverSession` has additional methods, `login` and `logout`(...and `_get_keys` method, too).
 
 Example usage
 -------------
@@ -25,4 +25,4 @@ else:
 Notes
 -----
 - It requires `requests` module.
-- It was written in `Python 2.7`.
+- It was developed in `Python 2.7`.
