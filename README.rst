@@ -2,6 +2,8 @@
 python-naverlogin
 =================
 
+|pypi-version| |pypi-license|
+
 python-naverlogin is a tiny module for Naver(Korean portal site) login.
 
 Easy to use
@@ -43,3 +45,9 @@ Installation
 .. code:: bash
 
     $ pip install naverlogin
+
+.. |pypi-version| image:: https://img.shields.io/pypi/v/naverlogin.svg?style=flat-square
+   :target: https://pypi.python.org/pypi/naverlogin/
+
+.. |pypi-license| image:: https://img.shields.io/pypi/l/naverlogin.svg?style=flat-square
+   :target: https://pypi.python.org/pypi/naverlogin/
